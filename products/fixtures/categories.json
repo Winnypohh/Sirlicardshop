@@ -3,7 +3,7 @@
     "model": "products.category",
     "fields": {
         "name": "cards",
-        "friendly_name": "Card's"
+        "friendly_name": "Cards"
     }
 }, {
     "pk": 2,

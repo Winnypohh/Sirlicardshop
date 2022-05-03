@@ -2,26 +2,248 @@
         "pk": 1,
         "model": "products.product",
         "fields": {
-            "sku": "pp5001340155",
-            "name": "Happy 40th.",
-            "description": "Happy birthday card for 40th birthday wit flovers.",
-            "price": 9.99,
+            "sku": "002",
+            "name": "Happy 40th Birthday",
+            "description": "Lovely card wit house and flowers..",
+            "price": 10.99,
             "category": 2,
-            "rating": 4.6,
-            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-            "image": "pilt1.jpg"
+            "rating": 6.5,
+            "image_url": "",
+            "image": "pilt2_Gxesgeq.jpg"
         }
     },{
         "pk": 2,
         "model": "products.product",
         "fields": {
-        "sku": "pp5001340156",
-        "name": "Happy 22",
-        "description": "Happy birthday  card for with house and flowers.",
+        "sku": "003",
+        "name": "Happy 22 Birthday",
+        "description": "Lovely card wit house and flowers.",
         "price": 10.99,
         "category": 2,
-        "rating": 4.6,
-        "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
-        "image": "pilt3.jpg"
+        "rating": 6.5,
+        "image_url": "",
+        "image": "pilt3_VrI411l.jpg"
     }
-    }]
+},{
+    "pk": 3,
+    "model": "products.product",
+    "fields": {
+        "sku": "004",
+        "name": "Farewell",
+        "description": "Lovely card with animals and flowers. best for doctors or nurses.",
+        "price": 10.99,
+        "category": 1,
+        "rating": 6.5,
+        "image_url": "",
+        "image": "pilt4_Hih1nrU.jpg"
+    }
+},{
+    "pk": 4,
+    "model": "products.product",
+    "fields": {
+        "sku": "005",
+        "name": "Easter",
+        "description": "Bunny's and Egg's.",
+        "price": 5.99,
+        "category": 1,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "pilt5_9ZXcJAF.jpg"
+    }
+},{
+    "pk": 5,
+    "model": "products.product",
+    "fields": {
+        "sku": "006",
+        "name": "Happy 30th Birthday",
+        "description": "Handmade card with flowers and some text.",
+        "price": 8.99,
+        "category": 2,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "pilt6_76bUvhg.jpg"
+    }
+},{
+    "pk": 6,
+    "model": "products.product",
+    "fields": {
+        "sku": "007",
+        "name": "Happy 60th Birthday",
+        "description": "Card for Mother for with flowers and some text.",
+        "price": 4.50,
+        "category": 3,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "pilt7_8Xhgdck.jpg"
+    }
+},{
+    "pk": 7,
+    "model": "products.product",
+    "fields": {
+        "sku": "008",
+        "name": "Christmas card",
+        "description": "Perfect Christmas card for every one.",
+        "price": 9.99,
+        "category": 3,
+        "rating": 5.0,
+        "image_url": "",
+        "image": "pilt8_50hbAuy.jpg"
+    }
+},{
+    "pk": 8,
+    "model": "products.product",
+    "fields": {
+        "sku": "009",
+        "name": "Newborn (girl)",
+        "description": "Special card for new born girl.",
+        "price": 9.99,
+        "category": 3,
+        "rating": 4.5,
+        "image_url": "",
+        "image": "pilt9_bJL7dvM.jpg"
+    }
+},{
+    "pk": 9,
+    "model": "products.product",
+    "fields": {
+        "sku": "010",
+        "name": "Happy 30th Birthday",
+        "description": "Nice safari for background with some animals.",
+        "price": 5.99,
+        "category": 3,
+        "rating": 4.8,
+        "image_url": "",
+        "image": "pilt10_5NR0voI.jpg"
+    }
+},{
+    "pk": 10,
+    "model": "products.product",
+    "fields": {
+        "sku": "011",
+        "name": "Wedding card",
+        "description": "Nice framed wedding card with white flowers.",
+        "price": 20.00,
+        "category": 3,
+        "rating": 7.5,
+        "image_url": "",
+        "image": "pilt11_DA5Ehwk.jpg "
+    }
+},{
+    "pk": 11,
+    "model": "products.product",
+    "fields": {
+        "sku": "012",
+        "name": "Wedding card",
+        "description": "Lovely flowers and center names with date.",
+        "price": 20.00,
+        "category": 4,
+        "rating": 7.8,
+        "image_url": "",
+        "image": "pilt12_86iQIKv.jpg"
+    }
+},{
+    "pk": 12,
+    "model": "products.product",
+    "fields": {
+        "sku": "013",
+        "name": "Table List for Wedding's",
+        "description": "Table nr. tags with names for display!",
+        "price": 80.00,
+        "category": 4,
+        "rating": 8.5,
+        "image_url": "",
+        "image": "pilt13_VMKsHmr.jpg"
+    }
+},{
+    "pk": 13,
+    "model": "products.product",
+    "fields": {
+        "sku": "014",
+        "name": "Happy Birthday Dad",
+        "description": "Man fishing on boat in sunset.",
+        "price": 9.99,
+        "category": 2,
+        "rating": 4.2,
+        "image_url": "",
+        "image": "pilt14_4WsFP7n.jpg "
+    }
+},{
+    "pk": 14,
+    "model": "products.product",
+    "fields": {
+        "sku": "015",
+        "name": "Card for newborn girl",
+        "description": "Lovely card with flowers and baby buggy.",
+        "price": 9.99,
+        "category": 1,
+        "rating": 8.5,
+        "image_url": "",
+        "image": "pilt15_FzmFfF2.jpg"
+    }
+},{
+    "pk": 15,
+    "model": "products.product",
+    "fields": {
+        "sku": "016",
+        "name": "Happy 1st Birthday",
+        "description": "Stairwell for pictures and balloons with name .",
+        "price": 9.99,
+        "category": 2,
+        "rating": 7.5,
+        "image_url": "",
+        "image": "pilt16_WdIsO3r.jpg"
+    }
+},{
+    "pk": 16,
+    "model": "products.product",
+    "fields": {
+        "sku": "017",
+        "name": "Happy Retirement",
+        "description": "Funny card where bear sickles with coffee on his hand to win tournament of is life!!",
+        "price": 9.99,
+        "category": 1,
+        "rating": 8.5,
+        "image_url": "",
+        "image": "pilt17_0sQdKTc.jpg"
+    }
+},{
+    "pk": 17,
+    "model": "products.product",
+    "fields": {
+        "sku": "018",
+        "name": "Wedding card",
+        "description": "Golden texture with white flowers.",
+        "price": 19.99,
+        "category": 4,
+        "rating": 8.5,
+        "image_url": "",
+        "image": "pilt18_H16K2f2.jpg"
+    }
+},{
+    "pk": 18,
+    "model": "products.product",
+    "fields": {
+        "sku": "019",
+        "name": "Wedding card wit box",
+        "description": "Gold and white texture with flowers.",
+        "price": 19.99,
+        "category": 3,
+        "rating": 8.5,
+        "image_url": "",
+        "image": "pilt19_IV1pNLR.jpg"
+    }
+},{
+    "pk": 19,
+    "model": "products.product",
+    "fields": {
+        "sku": "020",
+        "name": "Wedding card",
+        "description": "Nicely framed and flowerily decorated card",
+        "price": 12.99,
+        "category": 4,
+        "rating": 7.5,
+        "image_url": "",
+        "image": "pilt20_h1RlWdF.jpg"
+    }
+}
+]
