@@ -1,0 +1,27 @@
+[{
+        "pk": 1,
+        "model": "products.product",
+        "fields": {
+            "sku": "pp5001340155",
+            "name": "Happy 40th.",
+            "description": "Happy birthday card for 40th birthday wit flovers.",
+            "price": 9.99,
+            "category": 2,
+            "rating": 4.6,
+            "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+            "image": "pilt1.jpg"
+        }
+    },{
+        "pk": 2,
+        "model": "products.product",
+        "fields": {
+        "sku": "pp5001340156",
+        "name": "Happy 22",
+        "description": "Happy birthday  card for with house and flowers.",
+        "price": 10.99,
+        "category": 2,
+        "rating": 4.6,
+        "image_url": "http://s7d9.scene7.com/is/image/JCPenney/DP0709201205510679M.tif?hei=380&amp;wid=380&op_usm=.4,.8,0,0&resmode=sharp2&op_usm=1.5,.8,0,0&resmode=sharp",
+        "image": "pilt3.jpg"
+    }
+    }]
