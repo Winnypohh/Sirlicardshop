@@ -7,7 +7,7 @@
         </div>
     </a>
     <div class="dropdown-menu border-0 w-100 p-3 rounded-0 my-0" aria-labelledby="mobile-search">
-        <form class="form" method="GET" action="{% url 'products' %}">
+        <form class="form" method="GET" action="">
             <div class="input-group w-100">
                 <input class="form-control border border-black rounded-0" type="text" name="q"
                     placeholder="Search our site">
@@ -52,7 +52,7 @@
                 {% if grand_total %}
                 ${{ grand_total|floatformat:2 }}
                 {% else %}
-                $0.00
+                €0.00
                 {% endif %}
             </p>
         </div>
