@@ -6,9 +6,9 @@
                 All Products
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="all-products-link">
-                <a href="" class="dropdown-item">By Price</a>
-                <a href="" class="dropdown-item ">By Rating</a>
-                <a href="" class="dropdown-item ">By Category</a>
+                <a href="{% url 'products' %}?sort=price&direction=asc" class="dropdown-item">By Price</a>
+                <a href="{% url 'products' %}?sort=rating&direction=desc" class="dropdown-item ">By Rating</a>
+                <a href="{% url 'products' %}?sort=category&direction=asc" class="dropdown-item ">By Category</a>
                 <a href="{% url 'products' %}" class="dropdown-item">All Cards</a>
             </div>
         </li>
@@ -19,7 +19,9 @@
                 Cards
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="cards-link">
-                <a href="" class="dropdown-item">All Cards</a>
+                <a href="{% url 'products' %}?category=birthday_card" class="dropdown-item">Happy birthday</a>
+                <a href="{% url 'products' %}?category=cards" class="dropdown-item">Cards</a>
+                <a href="{% url 'products' %}?category=cards,birthday_card" class="dropdown-item">All Cards</a>
             </div>
         </li>
 
@@ -29,9 +31,8 @@
                 Wedding
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="wedding-link">
-                <a href="" class="dropdown-item">Wedding</a>
-                <a href="" class="dropdown-item">Card&Box</a>
-                <a href="" class="dropdown-item">All Cards</a>
+                <a href="{% url 'products' %}?category=wedding" class="dropdown-item">Wedding</a>
+                <a href="{% url 'products' %}?category=wedding" class="dropdown-item">All Cards</a>
             </div>
         </li>
 
@@ -41,9 +42,9 @@
                 Special Offers
             </a>
             <div class="dropdown-menu border-0" aria-labelledby="specials-link">
-                <a href="" class="dropdown-item">New Cards</a>
-                <a href="" class="dropdown-item">Discount</a>
-                <a href="" class="dropdown-item">All Specials</a>
+                <a href="{% url 'products' %}?category=new_cards" class="dropdown-item">New Cards</a>
+                <a href="{% url 'products' %}?category=discount" class="dropdown-item">Discont</a>
+                <a href="{% url 'products' %}?category=new_cards,discount" class="dropdown-item">All Special</a>
             </div>
         </li>
     </ul>

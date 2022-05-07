@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-!8#adg!$bljk*dew7df!eg)ibe)u72qj@%%8ja$4@$x09m_c*n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['localhost']
 
 
 # Application definition
@@ -157,4 +157,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-winnypohh-sirlicardshop-wm3vv5dr510.ws-eu43.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://8000-winnypohh-sirlicardshop-wm3vv5dr510.ws-eu44.gitpod.io']
+CURRENCY_CHOICES = [('EUR', 'EUR €')]
