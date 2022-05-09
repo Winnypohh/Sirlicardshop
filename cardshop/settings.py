@@ -46,7 +46,7 @@ INSTALLED_APPS = [
     'bag',
     'checkout',
 
-    #Other
+    # Other
     'crispy_forms',
 ]
 
@@ -177,3 +177,6 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-winnypohh-sirlicardshop-wm3vv5dr510.ws-eu44.gitpod.io']
 CURRENCY_CHOICES = [('EUR', 'EUR €')]
+STRIPE_CURRENCY = 'eur'
+STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', 'pk_test_51Kk1gLFi99xDV1AtDEWgLAgYyW95Xebr1DsfFsQ449EbQ0lORroyyXKM1SsWNc0SffeBRCzB8FKYFwd29ySW70qq00J1aDvJSJ')
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', 'sk_test_51Kk1gLFi99xDV1AtMV7zGXVYqYWKXSWaOuOYIp8oEjzXUiIbx9w2DAl6EXo15xDfV8ujRyZ5SwT1YujJRhNQkU4C00OrzP6to0')
