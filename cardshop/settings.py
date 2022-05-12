@@ -184,7 +184,7 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-winnypohh-sirlicardshop-wm3vv5dr510.ws-eu44.gitpod.io']
-CSRF_TRUSTED_ORIGINS = ['']
+CSRF_TRUSTED_ORIGINS = ['https://git.heroku.com/sirlishop.git']
 CURRENCY_CHOICES = [('EUR', 'EUR €')]
 STRIPE_CURRENCY = 'eur'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', 'pk_test_51Kk1gLFi99xDV1AtDEWgLAgYyW95Xebr1DsfFsQ449EbQ0lORroyyXKM1SsWNc0SffeBRCzB8FKYFwd29ySW70qq00J1aDvJSJ')
