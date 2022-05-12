@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 import os
+import dj_database_url
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -25,7 +26,7 @@ SECRET_KEY = 'django-insecure-!8#adg!$bljk*dew7df!eg)ibe)u72qj@%%8ja$4@$x09m_c*n
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['localhost']
+ALLOWED_HOSTS = ['sirlishop.herokuapp.com', 'localhost']
 
 
 # Application definition
@@ -120,12 +121,18 @@ WSGI_APPLICATION = 'cardshop.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/4.0/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+
+if 'DATABASE_URL' in os.environ:
+    DATABASES = {
+        'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 
 # Password validation
@@ -177,6 +184,7 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = ['https://8000-winnypohh-sirlicardshop-wm3vv5dr510.ws-eu44.gitpod.io']
+CSRF_TRUSTED_ORIGINS = ['https://dashboard.heroku.com/']
 CURRENCY_CHOICES = [('EUR', 'EUR €')]
 STRIPE_CURRENCY = 'eur'
 STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', 'pk_test_51Kk1gLFi99xDV1AtDEWgLAgYyW95Xebr1DsfFsQ449EbQ0lORroyyXKM1SsWNc0SffeBRCzB8FKYFwd29ySW70qq00J1aDvJSJ')

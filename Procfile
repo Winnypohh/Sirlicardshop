@@ -1,0 +1,1 @@
+web: gunicorn sirlicardshop.wsgi:application
