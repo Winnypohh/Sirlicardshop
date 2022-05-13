@@ -21,10 +21,10 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-!8#adg!$bljk*dew7df!eg)ibe)u72qj@%%8ja$4@$x09m_c*n'
+SECRET_KEY = os.environ.get('SECRET_KEY', '')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = 'DEVELOPMENT' in os.environ
 
 ALLOWED_HOSTS = ['sirlishop.herokuapp.com', 'localhost']
 
@@ -193,7 +193,7 @@ CSRF_TRUSTED_ORIGINS = [
     ]
 CSRF_TRUSTED_ORIGINS = [
     'https://dashboard.heroku.com/apps/sirlishop',
-    'https://git.heroku.com/sirlishop.git (push)']
+    'https://git.heroku.com/sirlishop.git']
 CURRENCY_CHOICES = [('EUR', 'EUR €')]
 STRIPE_CURRENCY = 'eur'
 STRIPE_PUBLIC_KEY = os.getenv(
