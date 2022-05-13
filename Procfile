@@ -1,1 +1,1 @@
-web: gunicorn sirlishop.wsgi:application
+web: gunicorn cardshop.wsgi:application
