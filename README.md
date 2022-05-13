@@ -97,4 +97,5 @@ You can get codes and other ideas and you can learn extra from there.
 # NB
 Just let you all know its really hard to follow if you dont have time,
 this is more likely for perosn who has time, i like what i learne and do.
-Most likely i dont finish this in time and i subbmit my half work.       
+Most likely i dont finish this in time and i subbmit my half work.
+There is social media links missing but email works fine.      
