@@ -116,7 +116,7 @@ ACCOUNT_USERNAME_MIN_LENGTH = 4
 LOGIN_URL = '/accounts/login/'
 LOGIN_REDIRECT_URL = '/'
 
-WSGI_APPLICATION = 'cardshop.wsgi.application'
+WSGI_APPLICATION = 'sirlishop.wsgi.application'
 
 
 # Database
