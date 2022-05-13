@@ -58,7 +58,9 @@ All HTML pages have been tested with the w3c validator and passed with no errors
 style.css has been passed through the CSS validator and passed with no errors.
 
 ### Bugs and Issues
-My SECRET_KEY was previously exposed in the repo but that you have rectified that and generated a new one. 
+My SECRET_KEY was previously exposed in the repo but that you have rectified that and generated a new one.
+And other keys was open is well.
+Fixed issus with AWS s3 is well.
 
 #TECHNOLOGIES
 
