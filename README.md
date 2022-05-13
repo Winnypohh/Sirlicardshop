@@ -57,6 +57,8 @@ All HTML pages have been tested with the w3c validator and passed with no errors
 ###Jigsaw CSS Validator
 style.css has been passed through the CSS validator and passed with no errors.
 
+### Bugs and Issues
+My SECRET_KEY was previously exposed in the repo but that you have rectified that and generated a new one. 
 
 #TECHNOLOGIES
 

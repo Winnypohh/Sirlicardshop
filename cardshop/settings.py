@@ -185,6 +185,12 @@ MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 if 'USE_AWS' in os.environ:
+    # Cache control
+    AWS_S3_OBJECT_PARAMETERS = {
+        'Expires': 'Thu, 31 Dec 2099 20:00:00 GMT',
+        'CacheControl': 'max-age=94608000',
+    }
+
     # Bucket Config
     AWS_STORAGE_BUCKET_NAME = 'sirlishop'
     AWS_S3_REGION_NAME = 'us-east-1'
@@ -218,16 +224,7 @@ CSRF_TRUSTED_ORIGINS = [
     'https://git.heroku.com/sirlishop.git']
 CURRENCY_CHOICES = [('EUR', 'EUR €')]
 STRIPE_CURRENCY = 'eur'
-STRIPE_PUBLIC_KEY = os.getenv(
-    'STRIPE_PUBLIC_KEY',
-    'pk_test_51Kk1gLFi99xDV1AtDEWgLAgYyW95Xebr1DsfFsQ449EbQ0lORroyyXKM1SsWNc0SffeBRCzB8FKYFwd29ySW70qq00J1aDvJSJ'
-    )
-STRIPE_SECRET_KEY = os.getenv(
-    'STRIPE_SECRET_KEY',
-    'sk_test_51Kk1gLFi99xDV1AtMV7zGXVYqYWKXSWaOuOYIp8oEjzXUiIbx9w2DAl6EXo15xDfV8ujRyZ5SwT1YujJRhNQkU4C00OrzP6to0'
-    )
-STRIPE_WH_SECRET = os.getenv(
-    'STRIPE_WH_SECRET',
-    'whsec_NrZfHpm3dD4hOG8uejTGRkTUc2Z5yOA6'
-     )
+STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', '')
+STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', '')
+STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', '')
 DEFAULT_FROM_EMAIL = 'Sirlicardshop@example.com'
