@@ -77,7 +77,8 @@ TEMPLATES = [
         'OPTIONS': {
             'context_processors': [
                 'django.template.context_processors.debug',
-                'django.template.context_processors.request',  # need for allauth
+                # need for allauth
+                'django.template.context_processors.request',
                 'django.contrib.auth.context_processors.auth',
                 'django.contrib.messages.context_processors.messages',
                 'django.template.context_processors.media',
@@ -140,16 +141,20 @@ else:
 
 AUTH_PASSWORD_VALIDATORS = [
     {
-        'NAME': 'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.UserAttributeSimilarityValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.MinimumLengthValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.MinimumLengthValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.CommonPasswordValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.CommonPasswordValidator',
     },
     {
-        'NAME': 'django.contrib.auth.password_validation.NumericPasswordValidator',
+        'NAME':
+        'django.contrib.auth.password_validation.NumericPasswordValidator',
     },
 ]
 
@@ -183,11 +188,24 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
-CSRF_TRUSTED_ORIGINS = ['https://8000-winnypohh-sirlicardshop-wm3vv5dr510.ws-eu44.gitpod.io']
-CSRF_TRUSTED_ORIGINS = ['https://dashboard.heroku.com/apps/sirlishop', 'https://git.heroku.com/sirlishop.git (push)']
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-winnypohh-sirlicardshop-wm3vv5dr510.ws-eu44.gitpod.io'
+    ]
+CSRF_TRUSTED_ORIGINS = [
+    'https://dashboard.heroku.com/apps/sirlishop',
+    'https://git.heroku.com/sirlishop.git (push)']
 CURRENCY_CHOICES = [('EUR', 'EUR €')]
 STRIPE_CURRENCY = 'eur'
-STRIPE_PUBLIC_KEY = os.getenv('STRIPE_PUBLIC_KEY', 'pk_test_51Kk1gLFi99xDV1AtDEWgLAgYyW95Xebr1DsfFsQ449EbQ0lORroyyXKM1SsWNc0SffeBRCzB8FKYFwd29ySW70qq00J1aDvJSJ')
-STRIPE_SECRET_KEY = os.getenv('STRIPE_SECRET_KEY', 'sk_test_51Kk1gLFi99xDV1AtMV7zGXVYqYWKXSWaOuOYIp8oEjzXUiIbx9w2DAl6EXo15xDfV8ujRyZ5SwT1YujJRhNQkU4C00OrzP6to0')
-STRIPE_WH_SECRET = os.getenv('STRIPE_WH_SECRET', 'whsec_NrZfHpm3dD4hOG8uejTGRkTUc2Z5yOA6')
+STRIPE_PUBLIC_KEY = os.getenv(
+    'STRIPE_PUBLIC_KEY',
+    'pk_test_51Kk1gLFi99xDV1AtDEWgLAgYyW95Xebr1DsfFsQ449EbQ0lORroyyXKM1SsWNc0SffeBRCzB8FKYFwd29ySW70qq00J1aDvJSJ'
+    )
+STRIPE_SECRET_KEY = os.getenv(
+    'STRIPE_SECRET_KEY',
+    'sk_test_51Kk1gLFi99xDV1AtMV7zGXVYqYWKXSWaOuOYIp8oEjzXUiIbx9w2DAl6EXo15xDfV8ujRyZ5SwT1YujJRhNQkU4C00OrzP6to0'
+    )
+STRIPE_WH_SECRET = os.getenv(
+    'STRIPE_WH_SECRET',
+    'whsec_NrZfHpm3dD4hOG8uejTGRkTUc2Z5yOA6'
+     )
 DEFAULT_FROM_EMAIL = 'Sirlicardshop@example.com'

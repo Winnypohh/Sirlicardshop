@@ -1,108 +1,121 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
-
-Welcome Winnypohh,
-
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
-
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
----
-
-Happy coding!
+<DOCTYPE html>
+<html lang="eng">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+<head>
+    <body>
+    <h1>E-COMMERCE PROJECT</h1>
+    <h1>SIRLI'S CARD SHOP</h1>
+        <p>
+        This project was built in python with django and other programs. 
+        </p>
+        <a href="" rel="nofollow">Click here to view Site.</a>
+        <h1>Card shop is for everyone who needs cards for celebrations or just make some one Happy.</h1>
+        <ul>
+        <li>You can pay cards for wedding , birthday & ....</li>
+        <li>Socialmedia links is for customising cards.</li>
+        <li>All cards are handmade and uniqe. </li>
+        <li>Shopping pages are clear and easy to pay and use shopping basket</li>
+        </ul>
+        <h1>Structure</h1>
+        <p>This site has been made and designed to make it easy for navigate through the pages.
+           All the context is very easy to understand.
+        </p>
+        <ul>
+        <li>
+        <p>Header</p>
+        <ul>
+        <img src="./assets/images/header&hamburgermenu.PNG">
+        <li>Navigation and drop down are smood and simple</li>
+        <li>There is a shop now button to help you go and find what you looking for.</li>
+        <h1>Main Picture</h1>
+        <img src="./media/main_page.jpg">
+        <li>With name and all the contact options.</li>
+        </ul>
+        </li>
+        <li>
+        <p>Templates</p>
+        <ul>
+        <li>All templates are provided from django and allauth and made for best for project</li>
+        </ul>
+        <li>
+        <p>Register, Login and Admin</p>
+        <li>you need to register on site and options for shop workers set up and admin set up for Users.</li>
+        <ul>
+        <li>Links to help you find more about movies or purchase items. It just takes you website where you might find what looking for.</li>
+        </ul>
+        </ul>
+        <h1>Wireframes.</h1> 
+        <img src="./media/">
+        <ul>
+        <li>Desktop</li>
+        <p>1200pixels wide and down.</p>
+        <li>Tablet</li>
+        <p>900 pixels wide and down.</p>
+        <li>Mobile</li>
+        <p>600 pixels wide and down.</p>
+        </ul>
+        <h1>Images and Gif's</h1>
+        <p>All images are on made like all the cards.</p>
+        <h1>Colors.</h1>
+        <p>To keep everything clear and cool I used these colors and design.</p>
+        <ul>
+        <li>
+        <p>For text design I used : Oswald and Lato.</p>
+        </li>
+        <li>
+        <p>h1 and h2 is usng the color: Black and White</p>
+        </li>
+        <li>
+        <p>Important text color is Red, Yellow.</p>
+        </li>
+        </ul>
+        <h1>Testing</h1>
+        <p>For testing, I will use multiple resources, HTML and CSS validators, Chrome Dev Tools Lighthouse tests as well as thorough user testing. Any errors and bugs found during the testing stage will be noted in the Bugs & Fixes section.</p>
+        <ul>
+        <h1>Tests</h1>
+        <li>HTML Validator</li>
+        <p>All HTML pages have been tested with the w3c validator and passed with no errors.</p>
+        <li>Jigsaw CSS Validator</li>
+        <p>style.css has been passed through the CSS validator and passed with no errors.</p>
+        <ul>
+        <h1>TECHNOLOGIES.</h1>
+        <h1>Language.<h1>
+        <ul>
+        <li>
+        <a href="https://docs.djangoproject.com/en/4.0/">Django Doc.</a>
+        </li>
+        <li>
+        <a href="https://et.wikipedia.org/wiki/HTML">Html</a>
+        </li>
+        <li>
+        <a href="https://stripe.com/docs">Stripe</a>
+        </li>
+        <li>
+        <a href="https://en.wikipedia.org/wiki/JavaScript">JavaScript</a>
+        </li>
+        </ul>
+        <h1>Other Technologies.</h1>
+        <ul>
+        <li>GitHub</li>
+        <p>Is what I'm using to save my work and all other things.</p>
+        <li>GitPod</li>
+        <p>Is used to make my project.</p>
+        <li>Font Awesome</li>
+        <p>Provides for all the icons.</p>
+        <li>HTML Validator</li>
+        <p>Validator helps with html errors.</p>
+        <li>Jicsaw Css Validator</li>
+        <p>Helps with Css errors.</p>
+        <li>Code Institute</li>
+        <p>I used for some help for videos to work on my codes.</p>
+        <li>W3School</li>
+        <p>You can get codes and other ideas and you can learn extra from there.</p>
+        </ul>
+        <li>Just let you all know its really hard to follow if you dont have time,</li>
+        <li> this is more likely for perosn who has time, i like what i learne and do.</li>
+        <li>Most likely i dont finish this in time and i subbmit my half work.</li>       
+    </body>
+</html>
