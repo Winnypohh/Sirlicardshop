@@ -3,14 +3,14 @@ html {
 }
 
 body {
-    background: url('/media/main_page.jpg') no-repeat center center fixed;
+    background: url('/media/main_page.jpg') top/cover no-repeat;
     background-size: cover;
     height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
 
-/* from Bulma */
+/* shop now button */
 .icon {
     align-items: center;
     display: inline-flex;
@@ -24,13 +24,14 @@ body {
 }
 
 .main-logo-link {
-    width: fit-content;
+    width: fixed;
 }
 
 .shop-now-button {
     background: black;
     color: white;
-    min-width: 260px;
+    padding: 1px 50px;
+    border-radius: 50px;
 }
 
 .btn-black {

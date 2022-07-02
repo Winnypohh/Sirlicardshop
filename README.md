@@ -49,12 +49,12 @@ Important text color is Red, Yellow.
 For testing, I will use multiple resources, HTML and CSS validators, Chrome Dev Tools Lighthouse tests as well as thorough user testing. Any errors and bugs found during the testing stage will be noted in the Bugs & Fixes section.
 
 
-###Tests
+### Tests
 
-###HTML Validator
+### HTML Validator
 All HTML pages have been tested with the w3c validator and passed with no errors.
 
-###Jigsaw CSS Validator
+### Jigsaw CSS Validator
 style.css has been passed through the CSS validator and passed with no errors.
 
 
@@ -70,7 +70,7 @@ style.css has been passed through the CSS validator and passed with no errors.
 
 ## Other Technologies.
 
-##GitHub
+## GitHub
 Is what I'm using to save my work and all other things.
 ## GitPod
 Is used to make my project.
