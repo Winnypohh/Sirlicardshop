@@ -4,8 +4,6 @@ html {
 
 body {
     background: url('/media/main_page.jpg') top/cover no-repeat;
-    background-size: cover;
-    height: calc(100vh - 164px);
     color: #555;
     font-family: 'Lato';
 }
