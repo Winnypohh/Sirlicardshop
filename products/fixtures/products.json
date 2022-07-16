@@ -9,7 +9,7 @@
             "category": 2,
             "rating": 6.5,
             "image_url": "",
-            "image": "pilt2_Gxesgeq.jpg"
+            "image": "pilt2.jpg"
         }
     },{
         "pk": 2,
@@ -22,7 +22,7 @@
         "category": 2,
         "rating": 6.5,
         "image_url": "",
-        "image": "pilt3_VrI411l.jpg"
+        "image": "pilt3.jpg"
     }
 },{
     "pk": 3,
@@ -35,7 +35,7 @@
         "category": 1,
         "rating": 6.5,
         "image_url": "",
-        "image": "pilt4_Hih1nrU.jpg"
+        "image": "pilt4.jpg"
     }
 },{
     "pk": 4,
@@ -48,7 +48,7 @@
         "category": 1,
         "rating": 5.0,
         "image_url": "",
-        "image": "pilt5_9ZXcJAF.jpg"
+        "image": "pilt5.jpg"
     }
 },{
     "pk": 5,
@@ -61,7 +61,7 @@
         "category": 2,
         "rating": 5.0,
         "image_url": "",
-        "image": "pilt6_76bUvhg.jpg"
+        "image": "pilt6.jpg"
     }
 },{
     "pk": 6,
@@ -74,7 +74,7 @@
         "category": 3,
         "rating": 5.0,
         "image_url": "",
-        "image": "pilt7_8Xhgdck.jpg"
+        "image": "pilt7.jpg"
     }
 },{
     "pk": 7,
@@ -87,7 +87,7 @@
         "category": 3,
         "rating": 5.0,
         "image_url": "",
-        "image": "pilt8_50hbAuy.jpg"
+        "image": "pilt8.jpg"
     }
 },{
     "pk": 8,
@@ -100,7 +100,7 @@
         "category": 3,
         "rating": 4.5,
         "image_url": "",
-        "image": "pilt9_bJL7dvM.jpg"
+        "image": "pilt9.jpg"
     }
 },{
     "pk": 9,
@@ -113,7 +113,7 @@
         "category": 3,
         "rating": 4.8,
         "image_url": "",
-        "image": "pilt10_5NR0voI.jpg"
+        "image": "pilt10.jpg"
     }
 },{
     "pk": 10,
@@ -126,7 +126,7 @@
         "category": 3,
         "rating": 7.5,
         "image_url": "",
-        "image": "pilt11_DA5Ehwk.jpg"
+        "image": "pilt11.jpg"
     }
 },{
     "pk": 11,
@@ -139,7 +139,7 @@
         "category": 4,
         "rating": 7.8,
         "image_url": "",
-        "image": "pilt12_86iQIKv.jpg"
+        "image": "pilt12.jpg"
     }
 },{
     "pk": 12,
@@ -152,7 +152,7 @@
         "category": 4,
         "rating": 8.5,
         "image_url": "",
-        "image": "pilt13_VMKsHmr.jpg"
+        "image": "pilt13.jpg"
     }
 },{
     "pk": 13,
@@ -165,7 +165,7 @@
         "category": 2,
         "rating": 4.2,
         "image_url": "",
-        "image": "pilt14_4WsFP7n.jpg"
+        "image": "pilt14.jpg"
     }
 },{
     "pk": 14,
@@ -178,7 +178,7 @@
         "category": 1,
         "rating": 8.5,
         "image_url": "",
-        "image": "pilt15_FzmFfF2.jpg"
+        "image": "pilt15.jpg"
     }
 },{
     "pk": 15,
@@ -191,7 +191,7 @@
         "category": 2,
         "rating": 7.5,
         "image_url": "",
-        "image": "pilt16_WdIsO3r.jpg"
+        "image": "pilt16.jpg"
     }
 },{
     "pk": 16,
@@ -204,7 +204,7 @@
         "category": 1,
         "rating": 8.5,
         "image_url": "",
-        "image": "pilt17_0sQdKTc.jpg"
+        "image": "pilt17.jpg"
     }
 },{
     "pk": 17,
@@ -217,7 +217,7 @@
         "category": 4,
         "rating": 8.5,
         "image_url": "",
-        "image": "pilt18_H16K2f2.jpg"
+        "image": "pilt18.jpg"
     }
 },{
     "pk": 18,
@@ -230,7 +230,7 @@
         "category": 3,
         "rating": 8.5,
         "image_url": "",
-        "image": "pilt19_IV1pNLR.jpg"
+        "image": "pilt19.jpg"
     }
 },{
     "pk": 19,
@@ -243,7 +243,7 @@
         "category": 4,
         "rating": 7.5,
         "image_url": "",
-        "image": "pilt20_h1RIWdf.jpg"
+        "image": "pilt20.jpg"
     }
 }
 ]
