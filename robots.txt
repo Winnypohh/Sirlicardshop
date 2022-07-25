@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: /accpunts/
+Disallow: /bag/
+Sitemap: https://sirlishop.herokuapp.com/sitemap.xml
