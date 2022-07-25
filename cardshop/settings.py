@@ -180,7 +180,7 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 
 if 'USE_AWS' in os.environ:
     # Bucket Config
-    AWS_STORAGE_BUCKET_NAME = 'arn:aws:s3:::sirlishop'
+    AWS_STORAGE_BUCKET_NAME = 'sirlishop'
     AWS_S3_REGION_NAME = 'eu-west-1'
     AWS_ACCESS_KEY_ID = os.environ.get('AWS_ACCESS_KEY_ID')
     AWS_SECRET_ACCESS_KEY = os.environ.get('AWS_SECRET_ACCESS_KEY')
@@ -209,21 +209,15 @@ CSRF_TRUSTED_ORIGINS = [
     ]
 CSRF_TRUSTED_ORIGINS = [
     'https://dashboard.heroku.com/apps/sirlishop',
-    'https://git.heroku.com/sirlishop.git (push)']
+    'https://sirlishop.herokuapp.com/']
 CURRENCY_CHOICES = [('EUR', 'EUR €')]
 STRIPE_CURRENCY = 'eur'
-STRIPE_PUBLIC_KEY = os.getenv(
-    'STRIPE_PUBLIC_KEY',
-    'pk_test_51Kk1gLFi99xDV1AtDEWgLAgYyW95Xebr1DsfFsQ449EbQ0lORroyyXKM1SsWNc0SffeBRCzB8FKYFwd29ySW70qq00J1aDvJSJ'
-    )
-STRIPE_SECRET_KEY = os.getenv(
-    'STRIPE_SECRET_KEY',
-    'sk_test_51Kk1gLFi99xDV1AtMV7zGXVYqYWKXSWaOuOYIp8oEjzXUiIbx9w2DAl6EXo15xDfV8ujRyZ5SwT1YujJRhNQkU4C00OrzP6to0'
-    )
-STRIPE_WH_SECRET = os.getenv(
-    'STRIPE_WH_SECRET',
-    'whsec_NrZfHpm3dD4hOG8uejTGRkTUc2Z5yOA6'
-     )
+STRIPE_PUBLIC_KEY = os.environ.get(
+    'STRIPE_PUBLIC_KEY', '')
+STRIPE_SECRET_KEY = os.environ.get(
+    'STRIPE_SECRET_KEY', '')
+STRIPE_WH_SECRET = os.environ.get(
+    'STRIPE_WH_SECRET', '')
 
 if 'DEVELOPMENT' in os.environ:
     EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
