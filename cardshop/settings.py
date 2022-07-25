@@ -205,7 +205,9 @@ STANDARD_DELIVERY_PERCENTAGE = 10
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CSRF_TRUSTED_ORIGINS = [
-    'https://8000-winnypohh-sirlicardshop-wm3vv5dr510.ws-eu54.gitpod.io',
+    'https://8000-winnypohh-sirlicardshop-wm3vv5dr510.ws-eu54.gitpod.io']
+
+CSRF_TRUSTED_ORIGINS = [
     'https://sirlishop.herokuapp.com/']
 
 CURRENCY_CHOICES = [('EUR', 'EUR €')]
