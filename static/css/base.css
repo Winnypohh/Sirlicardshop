@@ -84,7 +84,7 @@ a.category-badge>span.badge:hover {
 }
 
 .btt-button {
-    height: 42px;
+    height: 50px;
     width: 42px;
     position: bottom;
     bottom: 10px;
@@ -169,7 +169,7 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-.footer {
+.container-fluide {
     background: #f8f9fa !important;
     display: flex-box;
     height: 20px;
