@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/main_page.jpg') top/cover no-repeat;
+    background: url('/media/main_page.jpg') center center no-repeat;
     color: #555;
     font-family: 'Lato';
 }
@@ -186,6 +186,12 @@ input[name='q']::placeholder {
     .container {
         max-width: 80%;
     }
+    .header-container {
+        padding-top: 304px;
+    }
+    body {
+        height: calc(100vh - 116px);
+    }
 }
 
 /* Allauth form formatting */
@@ -256,9 +262,14 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 104px;
+        padding-top: 164px;
+    }
+
+    body {
+        height: calc(130vh - 116px);
     }
 }
+
 
 /* Product Form */
 
@@ -292,10 +303,10 @@ input[name='q']::placeholder {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 116px;
+        padding-top: 456px;
     }
 
     body {
-        height: calc(100vh - 116px);
+        height: calc(50vh - 116px);
     }
 }
