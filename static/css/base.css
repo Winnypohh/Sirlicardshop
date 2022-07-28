@@ -101,6 +101,15 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
+/* footer */
+
+.container-fluide {
+    background: #f8f9fa !important;
+    display: flex-box;
+    height: 20px;
+    width: 40px;
+}
+
 /* ------------------------------- bootstrap toasts */
 
 .message-container {
@@ -167,13 +176,6 @@ input[name='q']::placeholder {
     height: 100px;
     overflow-x: hidden;
     overflow-y: auto;
-}
-
-.container-fluide {
-    background: #f8f9fa !important;
-    display: flex-box;
-    height: 20px;
-    width: 40px;
 }
 
 
