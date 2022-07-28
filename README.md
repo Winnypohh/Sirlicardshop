@@ -15,6 +15,7 @@ Navigation and drop down are smood and simple
 There is a shop now button to help you go and find what you looking for.
 # Main Picture
 <img src="./media/main_page.jpg">
+
 With name and all the contact options.
 
 ## Templates

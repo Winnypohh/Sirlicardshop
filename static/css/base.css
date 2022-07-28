@@ -8,6 +8,8 @@ body {
     font-family: 'Lato';
 }
 
+
+
 /* shop now button */
 .icon {
     align-items: center;
@@ -84,7 +86,7 @@ a.category-badge>span.badge:hover {
 .btt-button {
     height: 42px;
     width: 42px;
-    position: fixed;
+    position: bottom;
     bottom: 10px;
     right: 10px;
 }
@@ -167,6 +169,13 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
+.footer {
+    background: #f8f9fa !important;
+    display: flex-box;
+    height: 20px;
+    width: 40px;
+}
+
 
 /* -------------------------------- Media Queries */
 
@@ -245,7 +254,7 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 104px;
     }
 }
 
