@@ -23,6 +23,10 @@ All templates are provided from django and allauth and made for best for project
 ## Register, Login and Admin
 You need to register on site and options for shop workers set up and admin set up for Users.
 Links to help you find more about movies or purchase items. It just takes you website where you might find what looking for.
+## Mailchimp 
+I used Mailchimp for Newsletter.
+## Social media
+For socialmedia platform i used and linked Business Facebook account.
 
 # Wireframes.
 <img src="./media/">

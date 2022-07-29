@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/main_page.jpg') center center no-repeat;
+    background: url('/media/main_page.jpg') top/cover no-repeat;
     color: #555;
     font-family: 'Lato';
 }
@@ -106,8 +106,9 @@ input[name='q']::placeholder {
 .container-fluide {
     background: #f8f9fa !important;
     display: flex-box;
-    height: 20px;
-    width: 40px;
+    padding: 10px;
+    height: fit-content;
+    width: 100%;
 }
 
 /* ------------------------------- bootstrap toasts */
@@ -184,13 +185,14 @@ input[name='q']::placeholder {
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
-        max-width: 80%;
+        max-width: 100%;
     }
     .header-container {
-        padding-top: 304px;
+        padding-top: 54px;
     }
+    
     body {
-        height: calc(100vh - 116px);
+        height: calc(90vh - 10px);
     }
 }
 
@@ -262,11 +264,11 @@ input[name='q']::placeholder {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 124px;
     }
 
     body {
-        height: calc(130vh - 116px);
+        height: calc(110vh - 100px);
     }
 }
 
@@ -303,10 +305,13 @@ input[name='q']::placeholder {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 991px) {
     .header-container {
-        padding-top: 456px;
+        padding-top: 70px;
     }
 
     body {
-        height: calc(50vh - 116px);
+        height: calc(75vh - 10px);
+    }
+    .my-5 {
+        padding-top: 345px;
     }
 }
