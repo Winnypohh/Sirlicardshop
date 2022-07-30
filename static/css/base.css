@@ -4,6 +4,7 @@ html {
 
 body {
     background: url('/media/main_page.jpg') top/cover no-repeat;
+    background-position: center center;
     color: #555;
     font-family: 'Lato';
 }
@@ -103,12 +104,8 @@ input[name='q']::placeholder {
 
 /* footer */
 
-.container-fluide {
-    background: #f8f9fa !important;
-    display: flex-box;
-    padding: 10px;
-    height: fit-content;
-    width: 100%;
+.footer {
+    padding: 30px;
 }
 
 /* ------------------------------- bootstrap toasts */
@@ -185,14 +182,15 @@ input[name='q']::placeholder {
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
-        max-width: 100%;
+        max-width: 80%;
     }
-    .header-container {
-        padding-top: 54px;
-    }
-    
+
     body {
-        height: calc(90vh - 10px);
+        background: url('/media/main_page.jpg') no-repeat;
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: auto;
+        background-color: rgb(43, 30, 30);
     }
 }
 
@@ -254,7 +252,7 @@ input[name='q']::placeholder {
 }
 
 /* fixed top navbar only on medium and up */
-@media (min-width: 992px) {
+@media (min-width: 991px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -262,16 +260,18 @@ input[name='q']::placeholder {
         left: 0;
         z-index: 1030;
     }
-
     .header-container {
-        padding-top: 124px;
+        padding-top: 80px;
     }
 
     body {
-        height: calc(110vh - 100px);
+        height: calc(65vh - 5px);
+    }
+
+    .my-5 {
+        padding-top: 50px;
     }
 }
-
 
 /* Product Form */
 
@@ -303,15 +303,15 @@ input[name='q']::placeholder {
 
 
 /* pad the top a bit when navbar is collapsed on mobile */
-@media (max-width: 991px) {
+@media (max-width: 989px) {
     .header-container {
-        padding-top: 70px;
+        padding-top: 200px;
     }
 
     body {
-        height: calc(75vh - 10px);
+        height: calc(64vh - 100px);
     }
     .my-5 {
-        padding-top: 345px;
+        padding-top: 20px;
     }
 }

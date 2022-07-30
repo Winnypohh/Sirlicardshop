@@ -26,6 +26,8 @@ Links to help you find more about movies or purchase items. It just takes you we
 ## Mailchimp 
 I used Mailchimp for Newsletter.
 ## Social media
+<img src="./media/facebook.png">
+
 For socialmedia platform i used and linked Business Facebook account.
 
 # Wireframes.
