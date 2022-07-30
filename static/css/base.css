@@ -3,7 +3,7 @@ html {
 }
 
 body {
-    background: url('/media/main_page.jpg') top/cover no-repeat;
+    background: url('/media/mainpage.jpg') top/cover no-repeat;
     background-position: center center;
     color: #555;
     font-family: 'Lato';
@@ -186,7 +186,7 @@ input[name='q']::placeholder {
     }
 
     body {
-        background: url('/media/main_page.jpg') no-repeat;
+        background: url('/media/mainpage.jpg') no-repeat;
         background-attachment: fixed;
         background-position: center center;
         background-size: auto;
