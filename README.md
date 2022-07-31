@@ -14,7 +14,7 @@ All the context is very easy to understand.
 Navigation and drop down are smood and simple
 There is a shop now button to help you go and find what you looking for.
 # Main Picture
-<img src="./media/main_page.jpg">
+<img src="./media/mainpage.jpg">
 
 With name and all the contact options.
 
@@ -26,12 +26,12 @@ Links to help you find more about movies or purchase items. It just takes you we
 ## Mailchimp 
 I used Mailchimp for Newsletter.
 ## Social media
-<img src="./media/facebook.png">
+<img src="./media/facebook.PNG">
 
 For socialmedia platform i used and linked Business Facebook account.
 
 # Wireframes.
-<img src="./media/">
+<img src="./media/responsive.PNG">
 
 ### Desktop
 1200pixels wide and down.
@@ -59,7 +59,7 @@ For testing, I will use multiple resources, HTML and CSS validators, Chrome Dev 
 ### Tests
 
 ### HTML Validator
-All HTML pages have been tested with the w3c validator and passed with no errors.
+All HTML pages have been tested with some errors.
 
 ### Jigsaw CSS Validator
 style.css has been passed through the CSS validator and passed with no errors.
