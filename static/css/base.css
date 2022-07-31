@@ -213,7 +213,7 @@ input[name='q']::placeholder {
 /* -------------------------------- Media Queries */
 
 /* Slightly larger container on xl screens */
-@media (max-width: 1200px) {
+@media (min-width: 1200px) {
     .container {
         max-width: 80%;
     }
