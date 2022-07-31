@@ -176,11 +176,11 @@ input[name='q']::placeholder {
     overflow-y: auto;
 }
 
-.dropbtn {
+.footer-dropbtn {
     background-color: white;
     color: black;
     padding: 0;
-    font-size: 0;
+    font-size: 20px;
     border: none;
 }
 
@@ -221,19 +221,18 @@ input[name='q']::placeholder {
     body {
         background: url('/media/mainpage.jpg') no-repeat;
         background-position: center center;
-        background-size: 100%;
+        background-size: auto;
         background-color: rgb(43, 30, 30);
     }
-    .header-container {
-        padding-top: 204px;
-    }
-
-    body {
-        height: calc(100vh - 50px);
-    }
-    .my-5 {
-        padding-top: 400px;
-    }
+     .header-container {
+         padding-top: 114px;
+     }
+     body {
+         height: calc(90vh - 100px);
+     }
+     .my-5 {
+         padding-top: 0px;
+     }
 }
 
 /* Allauth form formatting */
@@ -294,7 +293,7 @@ input[name='q']::placeholder {
 }
 
 /* fixed top navbar only on medium and up */
-@media (min-width: 900px) {
+@media (max-width: 900px) {
     .fixed-top-desktop-only {
         position: fixed;
         top: 0;
@@ -302,19 +301,16 @@ input[name='q']::placeholder {
         left: 0;
         z-index: 1030;
     }
-    body {
-        background-size: cover;
-    }
     
     .header-container {
-        padding-top: 80px;
+        padding-top: 100px;
     }
 
     body {
         height: calc(80vh - 50px);
     }
     .my-5 {
-        padding-top: 100px;
+        padding-top: 20px;
     }
 }
 
@@ -350,13 +346,13 @@ input[name='q']::placeholder {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 600px) {
     .header-container {
-        padding-top: 100px;
+        padding-top: 200px;
     }
 
     body {
-        height: calc(75vh - 10px);
+        height: calc(65vh - 10px);
     }
     .my-5 {
-        padding-top: 140px;
+        padding-top: 240px;
     }
 }
