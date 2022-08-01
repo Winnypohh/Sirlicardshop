@@ -61,8 +61,12 @@ For testing, I will use multiple resources, HTML and CSS validators, Chrome Dev 
 ### HTML Validator
 All HTML pages have been tested with some errors.
 
+<img src="./media/htmlerror.PNG">
+
 ### Jigsaw CSS Validator
-style.css has been passed through the CSS validator and passed with no errors.
+style.css has been passed through the CSS validator and got some errors and warnings.
+
+<img src="./media/csserror.PNG">
 
 
 #TECHNOLOGIES

@@ -102,11 +102,6 @@ input[name='q']::placeholder {
     color: #aab7c4;
 }
 
-/* footer */
-
-.footer {
-    padding: 0;
-}
 
 /* ------------------------------- bootstrap toasts */
 
@@ -215,7 +210,7 @@ input[name='q']::placeholder {
 /* Slightly larger container on xl screens */
 @media (min-width: 1200px) {
     .container {
-        max-width: 80%;
+        max-width: 100%;
     }
 
     body {
@@ -224,15 +219,14 @@ input[name='q']::placeholder {
         background-size: auto;
         background-color: rgb(43, 30, 30);
     }
-     .header-container {
-         padding-top: 114px;
-     }
-     body {
-         height: calc(90vh - 100px);
-     }
-     .my-5 {
-         padding-top: 0px;
-     }
+
+    .header-container {
+        padding-top: 114px;
+    }
+
+    .my-5 {
+        padding-top: 860px;
+    }
 }
 
 /* Allauth form formatting */
@@ -303,14 +297,15 @@ input[name='q']::placeholder {
     }
     
     .header-container {
-        padding-top: 100px;
+        padding-top: 20px;
     }
 
-    body {
-        height: calc(80vh - 50px);
+    html {
+        height: 100%;
     }
+
     .my-5 {
-        padding-top: 20px;
+        padding-top: 928px;
     }
 }
 
@@ -346,13 +341,14 @@ input[name='q']::placeholder {
 /* pad the top a bit when navbar is collapsed on mobile */
 @media (max-width: 600px) {
     .header-container {
-        padding-top: 200px;
+        padding-top: 20px;
     }
 
-    body {
-        height: calc(65vh - 10px);
+    html {
+        height: 100%;
     }
+
     .my-5 {
-        padding-top: 240px;
+        padding-top: 410px;
     }
 }
