@@ -1,6 +1,7 @@
 
 # E-COMMERCE PROJECT
 # SIRLI'S CARD SHOP
+<a href="https://sirlishop.herokuapp.com/" rel="nofollow">Click here to view Site.</a>
         
 This project was built in python with django and other programs. 
 Card shop is for everyone who needs cards for celebrations or just make some one Happy.
