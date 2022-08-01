@@ -20,7 +20,7 @@ There is a shop now button to help you go and find what you looking for.
 With name and all the contact options.
 
 ## Templates
-All templates are provided from django and allauth and made for best for project.
+All templates are provided from django and allauth and are for best for project.
 ## Register, Login and Admin
 You need to register on site and options for shop workers set up and admin set up for Users.
 Links to help you find more about movies or purchase items. It just takes you website where you might find what looking for.
